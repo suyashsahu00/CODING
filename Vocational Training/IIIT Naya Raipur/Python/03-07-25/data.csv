@@ -1,0 +1,11 @@
+ID,Name,Category,Price,Stock
+1,Apple,Fruit,0.5,100
+2,Banana,Fruit,0.3,150
+3,Bread,Bakery,1.2,50
+4,Milk,Dairy,0.9,80
+5,Carrot,Vegetable,0.4,120
+6,Orange,Fruit,0.6,
+7,Cheese,Dairy,,60
+8,Tomato,Vegetable,0.35,90
+9,,Bakery,1.5,40
+10,Butter,Dairy,1.1,
