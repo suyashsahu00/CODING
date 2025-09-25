@@ -24,3 +24,107 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
+
+*.env
+# -------------------------
+# OS / Editor Junk
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.keystore
+secrets.json
+
+# -------------------------
+# Node.js / React
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+coverage/
+dist/
+build/
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# -------------------------
+# C / C++ / Compiled
+# -------------------------
+*.out
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+
+# -------------------------
+# IDE / Project Settings
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# -------------------------
+# AI / ML / Data
+# -------------------------
+datasets/
+checkpoints/
+models/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.pb
+*.csv
+*.sqlite
+*.db
+
+# -------------------------
+# Archives / Large Files
+# -------------------------
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+*.mp4
+*.mp3
+*.wav
