@@ -15,10 +15,10 @@ bool stringComplete = false;
 const int servoPin1 = 9;
 const int ledPin1   = 10;
 
-const int servoPin2 = 6;
+const int servoPin2 = 5;
 const int ledPin2   = 11;
 
-const int servoPin3 = 5;
+const int servoPin3 = 6;
 const int ledPin3   = 12;
 
 const int servoPin4 = 3;

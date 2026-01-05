@@ -11,7 +11,7 @@ from pathlib import Path
 
 # ---------------- CONFIG ---------------- #
 
-ARDUINO_PORT = "COM4"     # change if your Arduino uses another port
+ARDUINO_PORT = "COM3"     # change if your Arduino uses another port COM3 example
 BAUD_RATE = 9600
 # Use script-relative path for medicines.csv so the file is found
 # even when the script is launched from a different CWD.
@@ -610,7 +610,7 @@ boxes_frame = tk.Frame(bottom_frame, bg="#edf2ff")
 box1 = tk.LabelFrame(
     boxes_frame,
     text="Box 1",
-    bg="#c8f7c5",
+    bg="#35b52c",
     padx=8,
     pady=8,
     font=("Segoe UI", 10, "bold"),
@@ -625,7 +625,8 @@ box1_label.pack(expand=True)
 box2 = tk.LabelFrame(
     boxes_frame,
     text="Box 2",
-    bg="#c7ddff",
+    # bg="#c7ddff",
+    bg="#dd3434",
     padx=8,
     pady=8,
     font=("Segoe UI", 10, "bold"),
@@ -640,7 +641,7 @@ box2_label.pack(expand=True)
 box3 = tk.LabelFrame(
     boxes_frame,
     text="Box 3",
-    bg="#dd3434",  # Light Red background
+    bg="#0051ca",  # Light Red background
     padx=8,
     pady=8,
     font=("Segoe UI", 10, "bold"),
@@ -656,7 +657,7 @@ box3_label.pack(expand=True)
 box4 = tk.LabelFrame(
     boxes_frame,
     text="Box 4",
-    bg="#0047ab",  # Dark Blue background
+    bg="#0EBDF0",  # Dark Blue background
     padx=8,
     pady=8,
     font=("Segoe UI", 10, "bold"),
