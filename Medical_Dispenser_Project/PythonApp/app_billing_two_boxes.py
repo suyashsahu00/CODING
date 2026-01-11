@@ -22,7 +22,6 @@ SHOP_NAME = "MediCare Pharmacy"
 SHOP_ADDRESS_LINE1 = "13 Health Street"
 SHOP_ADDRESS_LINE2 = "Mumbai, Maharashtra, India"
 SHOP_PHONE = "+91-9345678991"
-SHOP_GSTIN = "26CORPP3939N1ZA"
 
 
 # ---------------- ARDUINO ---------------- #
